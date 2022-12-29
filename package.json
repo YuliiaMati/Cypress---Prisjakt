@@ -1,0 +1,20 @@
+{
+  "name": "prisjakt-cypress",
+  "version": "1.0.0",
+  "description": "Automated tests for prisjakt.nu",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cypress open",
+    "open:chrome": "cypress open --e2e -b chrome",
+    "open:firefox": "cypress open --e2e -b firefox",
+    "test:chrome": "cypress run --e2e -b chrome",
+    "test:firefox": "cypress run --e2e -b firefox"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.1.0",
+    "cypress-real-events": "^1.7.6"
+  }
+}
